@@ -24,7 +24,7 @@ class AuthProvider extends Model
             ])
             ->addRule('appId', [
                 'type' => self::TYPE_STRING,
-                'description' => 'OAuth 2.0 application ID.',
+                'description' => 'OAuth 2.0 client ID.',
                 'default' => '',
                 'example' => '259125845563242502',
             ])
